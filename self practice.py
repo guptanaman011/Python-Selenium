@@ -17,8 +17,8 @@ class instagramBot(object):
 
         self.driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[2]/div/label/input").send_keys(password)
 
-user_name = "naman_gupta"
-password = "12345678"
+user_name = "your_username"
+password = "your_password"
 
 instagramBot(user_name, password)
 
